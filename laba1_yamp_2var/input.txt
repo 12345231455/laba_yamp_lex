@@ -1,0 +1,8 @@
+int main(){
+int a1, c;
+int*& 123a21asssd
+double b = 126;
+a = a + b;
+itod (a);
+return 0;
+}
