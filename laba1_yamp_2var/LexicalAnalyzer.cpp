@@ -22,10 +22,10 @@ bool LexicalAnalyzer::DIG(const string& lexeme)
 
 bool LexicalAnalyzer::ID_NAME(const string& lexeme) const
 {
-    int count_word_letters = 0;
+    int count = 0;
     for (const auto elem : lexeme)
     {
-        if (!isalpha(elem) && count_word_letters == 0)
+        if (!isalpha(elem) && count == 0)
         {
             return false;
         }
@@ -33,15 +33,9 @@ bool LexicalAnalyzer::ID_NAME(const string& lexeme) const
         {
             return false;
         }
-        count_word_letters++;
+        count++;
     }
-    for (int i = 0; i < words.size(); i++)
-    {
-        if (lexeme == words[i])
-        {
-            return false;
-        }
-    }
+    
     return true;
 }
 
