@@ -8,9 +8,6 @@ string Token::getType()
 
     switch (type) 
     {
-    case TokenType::BEGIN:
-        tokenType = "BEGIN";
-        break;
     case TokenType::END:
         tokenType = "END";
         break;
