@@ -14,12 +14,6 @@ string Token::getType()
     case TokenType::END:
         tokenType = "END";
         break;
-    case TokenType::DESCRIPTIONS:
-        tokenType = "DESCRIPTIONS";
-        break;
-    case TokenType::DESCR:
-        tokenType = "DESCR";
-        break;
     case TokenType::OP:
         tokenType = "OP";
         break;
