@@ -14,7 +14,6 @@ int HashTable::Hashing(const string& lexeme) const
 void HashTable::Insert(const Token& token) 
 {
     int hash = Hashing(token.lexeme);
-    int originalHash = hash;
 
     while (Table[hash] != nullptr && Table[hash]->lexeme != token.lexeme)
     {
