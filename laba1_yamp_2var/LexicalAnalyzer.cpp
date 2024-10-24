@@ -76,10 +76,11 @@ Token LexicalAnalyzer::KeyWord(ifstream& in, int num, char elem)
             {
                 count_word_letters++;
             }
-            else if (num != words.size())
+            else if (num != words.size() - 1)
             {
                 num++;
-                count_word_letters++;
+                if (elem == words[num][count_all_letters])
+               count_word_letters++;
                 flag_to = true;
             }
             else
