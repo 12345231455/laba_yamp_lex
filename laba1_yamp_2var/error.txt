@@ -1,2 +1,0 @@
-     ERROR        | 123a21asssd        |         80
-     ERROR        |      int*&        |        763
