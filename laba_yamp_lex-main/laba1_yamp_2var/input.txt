@@ -1,0 +1,7 @@
+int main(){
+int a1, c;
+double b;
+a = a + b;
+a = itod (b);
+return a;
+}

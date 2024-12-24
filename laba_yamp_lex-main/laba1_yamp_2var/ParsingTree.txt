@@ -1,0 +1,47 @@
+ 
+ Begin
+  int
+  main
+  (
+  )
+  {
+ Descriptions
+  deskrNode1
+   int
+   VarList
+    a1
+    c
+   ;
+  deskrNode2
+   double
+   VarList
+    b
+   ;
+ Operators
+  OpLine 1
+   a
+   =
+    SimpleExpr
+     ID_NAME
+      a
+    +
+     SimpleExpr
+      ID_NAME
+       b
+   ;
+  OpLine 2
+   a
+   =
+    SimpleExpr
+     itod
+     (
+      SimpleExpr
+       ID_NAME
+        b
+     )
+   ;
+ End
+  return
+  a
+  ;
+  }
