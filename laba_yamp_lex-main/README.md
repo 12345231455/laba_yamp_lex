@@ -1,1 +1,0 @@
-# laba_yamp_lex
