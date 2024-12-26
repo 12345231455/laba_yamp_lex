@@ -19,7 +19,7 @@ void Parser::getNextToken()
 
 Node Parser::parse() 
 {
-    Node n(" ");
+    Node n("Function");
     n.addSon("Begin");
     Program(n.getSon(n.children.size() - 1));
 
