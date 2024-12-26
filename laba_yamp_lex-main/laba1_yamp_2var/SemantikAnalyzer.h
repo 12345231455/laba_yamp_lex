@@ -9,7 +9,8 @@ using namespace std;
 class SemantikAnalyzer
 {
 public:
-	set<string> names;
+	set<string> names_int;
+	set<string> names_double;
 	void sem_parse(Node& root);
 	void Begin(Node& n);
 	void End(Node& n);
@@ -21,5 +22,5 @@ public:
 	void print(string& s);
 	void Out_Error();
 private:
-	
+
 };
